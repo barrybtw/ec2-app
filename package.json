@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "pub": "pnpm build && pnpm preview --port 80"
+    "pub": "pnpm build && sudo pnpm preview --port 80"
   },
   "dependencies": {
     "react": "^18.2.0",
